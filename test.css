@@ -1,16 +1,17 @@
 .bioCard{
     display: flex;
     flex-direction: row;
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-bottom: 10px;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 1.2em;
     justify-content: space-around;
 }
 
 .leaderTitle{
     margin-left: 20%;
-    margin-top: 30px;
-    margin-bottom: 50px;
+    margin-top: 1.3em;
+    margin-bottom: 1.4em;
 }
 
 .card{
@@ -24,7 +25,7 @@
 }
 
 .bioCard img{
-    margin-top: 10px;
+    margin-top: 0.4em;
 }
 
 .card-body button{
