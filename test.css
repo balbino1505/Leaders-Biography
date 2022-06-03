@@ -1,0 +1,18 @@
+.bioCard{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    justify-content: space-around;
+}
+
+.leaderTitle{
+    margin-left: 20%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.card{
+    border: 1px solid #077;
+}
