@@ -1,7 +1,12 @@
 let xImageChange = document.querySelector('.xImageChange');
 let rImageChange = document.querySelector('.rImageChange');
+let tmrImageChange = document.querySelector('.tmrImageChange');
+let luImageChange = document.querySelector('.luImageChange');
+
 let btnChangeX = document.querySelector('.btnChangeX');
 let btnChangeR = document.querySelector('.btnChangeR');
+let btnChangeTMR = document.querySelector('.btnChangeTMR');
+let btnChangeLu = document.querySelector('.btnChangeLu');
 
  function changeMeX(){
     if (xImageChange.style.display === 'none') {
@@ -21,5 +26,13 @@ function changeMeR(){
     } else {
         rImageChange.style.display = 'none';
         btnChangeR.innerHTML = 'Show';
+    }
+}
+
+function changeMeTMR(){
+    if (btnChangeTMR.style.display === 'none') {
+        btnChangeTMR.innerHTML = 'block';
+    } else {
+        btnChangeTMR.innerHTML = 'Show';
     }
 }
