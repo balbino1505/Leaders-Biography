@@ -14,9 +14,10 @@
 </head>
 <body>
     <h2 class="leaderTitle">Biography of East Timor Guerrilla and Politicians Leaders</h2>
-    <div class="bioCard">
-        <!-- Xanana Gusmão -->
-        <div class="card" style="width: 19rem;">
+    <div class="row">
+      <!-- Xanana Gusmão -->
+      <div class="col-sm-4">
+        <div class="card">
             <img class="xImageChange" src="https://presidenciarepublica.tl/wp-content/uploads/xanana-bio-pic.png" alt="xanana gusmao" height="300" width="300" style="border-radius: 60%; border: 2px solid #ff23;"  srcset="">
             <div class="card-body">
               <h5 class="card-title">Xanana Gusmão</h5>
@@ -26,42 +27,61 @@
               <button class="btn btn-danger btnChangeX" onclick="changeMeX()">Click</button>
             </div>
         </div>
-
-        <!-- Ramos Horta -->
-        <div class="card" style="width: 19rem;">
-            <img class="rImageChange" src="img/ramos_horta.png" alt="Ramos Horta" height="300" width="300" style="border-radius: 60%; border: 2px solid #ff23;"  srcset="">
-            <div class="card-body">
-              <h5 class="card-title">Ramos Horta</h5>
-              <p class="card-text">
-                José Manuel Ramos-Horta GColIH GCL is an East Timorese politician currently serving as president of East Timor since May 2022. 
-              </p>
-              <button class="btn btn-danger btnChangeR" onclick="changeMeR()">Click</button>
-            </div>
+      </div>
+      <!-- Ramos Horta -->
+      <div class="col-sm-4">
+        <div class="card">
+          <img class="rImageChange" src="img/ramos_horta.png" alt="Ramos Horta" height="300" width="300" style="border-radius: 60%; border: 2px solid #ff23;"  srcset="">
+          <div class="card-body">
+            <h5 class="card-title">Ramos Horta</h5>
+            <p class="card-text">
+              José Manuel Ramos-Horta GColIH GCL is an East Timorese politician currently serving as president of East Timor since May 2022. He previously served as president from 20 May 2007 to 20 May 2012. Previously he was Minister of Foreign Affairs from 2002 to 2006 and Prime Minister from 2006 to 2007.            </p>
+            <button class="btn btn-danger btnChangeR" onclick="changeMeR()">Click</button>
           </div>
+        </div>
+      </div>
 
-          <!-- Taur Matan Ruak -->
-          <div class="card" style="width: 19rem;">
-            <img class="tmrImageChange" src="img/taur_matan_ruak.jpg" alt="Ramos Horta" height="300" width="300" style="border-radius: 60%; border: 2px solid #ff23;"  srcset="">
-            <div class="card-body">
-              <h5 class="card-title">Taur Matan Ruak</h5>
-              <p class="card-text">
-                José Maria Vasconcelos GColIH, popularly known as Taur Matan Ruak, is an East Timorese politician who has served as the prime minister of East Timor since 22 June 2018. He was also President of East Timor from 20 May 2012 to 20 May 2017
-              </p>
-              <button class="btn btn-danger btnChangeTMR" onclick="changeMeTMR()">Click</button>
-            </div>
-          </div>
-
-          <!-- Lu-olo -->
-          <div class="card" style="width: 19rem;">
-            <img class=luImageChange" src="img/francisco_luolo.jpg" alt="Ramos Horta" height="300" width="300" style="border-radius: 60%; border: 2px solid #ff23;"  srcset="">
-            <div class="card-body">
-              <h5 class="card-title">Francisco Guterres "Lú-Olo"</h5>
-              <p class="card-text">
-                Francisco Guterres, popularly known as Lú-Olo, is an East Timorese politician who served as president of East Timor from 20 May 2017 to 20 May 2022. 
+      <!-- Taur Matan Ruak -->
+      <div class="col-sm-4">
+        <div class="card">
+          <img class="tmrImageChange" src="img/taur_matan_ruak.jpg" alt="Ramos Horta" height="300" width="300" style="border-radius: 60%; border: 2px solid #ff23;"  srcset="">
+          <div class="card-body">
+            <h5 class="card-title">Taur Matan Ruak</h5>
+            <p class="card-text">
+              José Maria Vasconcelos GColIH, popularly known as Taur Matan Ruak, is an East Timorese politician who has served as the prime minister of East Timor since 22 June 2018. He was also President of East Timor from 20 May 2012 to 20 May 2017
             </p>
-              <button class="btn btn-danger btnChangeLu" onclick="changeMeLu()">Click</button>
-            </div>
+            <button class="btn btn-danger btnChangeTMR" onclick="changeMeTMR()">Click</button>
           </div>
+        </div>
+      </div>
+
+      <!-- Lu-olo -->
+      <div class="col-sm-4">
+        <div class="card">
+          <img class=luImageChange" src="img/francisco_luolo.jpg" alt="Ramos Horta" height="300" width="300" style="border-radius: 60%; border: 2px solid #ff23;"  srcset="">
+          <div class="card-body">
+            <h5 class="card-title">Francisco Guterres "Lú-Olo"</h5>
+            <p class="card-text">
+              Francisco Guterres, popularly known as Lú-Olo, is an East Timorese politician who served as president of East Timor from 20 May 2017 to 20 May 2022. 
+          </p>
+            <button class="btn btn-danger btnChangeLu" onclick="changeMeLu()">Click</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Lere Anan Timur -->
+      <div class="col-sm-4">
+        <div class="card">
+          <img class=luImageChange" src="img/lere.jpg" alt="Ramos Horta" height="300" width="300" style="border-radius: 60%; border: 2px solid #ff23;"  srcset="">
+          <div class="card-body">
+            <h5 class="card-title">Lere Anan Timur</h5>
+            <p class="card-text">
+              Major General Lere Anan Timur is a Timorese general who has served as Commander of the F-FDTL since 6 October 2011.
+            </p>
+            <button class="btn btn-danger btnChangeLu" onclick="changeMeLu()">Click</button>
+          </div>
+        </div>
+      </div>
     </div>
     
     <script src="test.js"></script>
