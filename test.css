@@ -16,3 +16,26 @@
 .card{
     border: 1px solid #077;
 }
+
+.card h5{
+    display: flex;
+    justify-content: center;
+}
+
+.bioCard img{
+    margin-top: 10px;
+}
+
+.card-body button{
+    width: 100%;
+}
+
+.card-body{
+    padding: 2;
+    background-color: #9e9e91;
+}
+
+.card-body button:hover{
+    background-color: #077;
+    color: white;
+}
